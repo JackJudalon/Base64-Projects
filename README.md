@@ -1,7 +1,7 @@
 # Base64-Projects
 These are my personal projects to learn more about base64 encyption and decryption. 
 
-<b>How Base64 Works</b>
+# How Base64 Works
 
 The everyday English that we type in uses a table called ASCII (American Standard Code for Information Interchange). This map helps represent the correlation between characters such as 'A' or 'P' into decimal numbers 65 or 80. Our computer can work with these digits once they are converted into machine code (binary, base2). 
 
@@ -9,18 +9,18 @@ Binary is a system of number representation that can only use 1 and 0. Once thes
 
 Each byte of data is combined and then split every 6 bits. These new binary numbers are converted back into decimal, then mapped to a new character.
 
-Here is an example:
+# Here is an example:
 
-Plaintext: "Secret"
+<b>Plaintext</b>: "Secret"
 
-ASCII: 83 101 99 114 101 116
+<b>ASCII</b>: 83 101 99 114 101 116
 
-Binary: 01010011 01100101 01100011 01110010 01100101 01110100
+<b>Binary</b>: 01010011 01100101 01100011 01110010 01100101 01110100
 
-Combined Binary: 010100110110010101100011011100100110010101110100
+<b>Combined Binary</b>: 010100110110010101100011011100100110010101110100
 
-New Binary (after split): 010100 110110 010101 100011 011100 100110 010101 110100
+<b>New Binary (after split)</b>: 010100 110110 010101 100011 011100 100110 010101 110100
 
-New ASCII: 20 54 21 35 28 38 21 52
+<b>New ASCII</b>: 20 54 21 35 28 38 21 52
 
-Ciphertext: U2VjcmV0
+<b>Ciphertext</b>: U2VjcmV0

@@ -1,5 +1,9 @@
 import re
 
+### encrypt(old_text)
+### Takes in a String of numbers and characters to encrypt from Base64
+### Maps the old String to a Base64 standard index table
+### Prints the encrypted String
 def encrypt(old_text): 
     old_text = old_text.replace(" ", "_")
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"

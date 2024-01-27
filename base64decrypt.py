@@ -26,6 +26,6 @@ def decrypt(old_text):
     old_text = ''.join(old_text)
     print(old_text)
 
-old_text = input("Enter the text to decrypt>> ")
+old_text = input("Input your text to decrypt>> ")
 decrypt(old_text)
 

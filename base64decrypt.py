@@ -1,5 +1,9 @@
 import re
 
+### decrypt(old_text)
+### Takes in a String of numbers and characters to decrypt from Base64
+### Maps the old String to a Base64 standard index table
+### Prints the decrypted String
 def decrypt(old_text):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
     alphabet2 = re.findall(".", alphabet)
@@ -22,5 +26,6 @@ def decrypt(old_text):
     old_text = ''.join(old_text)
     print(old_text)
 
-decrypt("cGljb0NURntJX2ZpbmlzaGVkX3RoZV9lbmNvZGVyfQ==")
+old_text = input("Enter the text to decrypt>> ")
+decrypt(old_text)
 

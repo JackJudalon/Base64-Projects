@@ -1,6 +1,9 @@
 # Base64-Projects
 This projects helped teach me the inner workings of a cryptographic algorithm that is commonly seen in CTF's and insecure security measures. I used Python to create this along with the help of the REGEX library (RE).
 
+I really enjoyed this project because many times during cryptography based challenges in CTF's, people have multiple websites open to decrypt from several different types including ROT-13, Caesar, and Base64. Through this project I got to learn the inner workings of how the function worked along with writing my own script that I can use for future challenges.
+
+
 # How Base64 Works
 
 The everyday English that we type in uses a table called ASCII (American Standard Code for Information Interchange). This map helps represent the correlation between characters such as 'A' or 'P' into decimal numbers 65 or 80. Our computer can work with these digits once they are converted into machine code (binary, base2). 

@@ -23,4 +23,4 @@ New Binary (after split): 010100 110110 010101 100011 011100 100110 010101 11010
 
 New ASCII: 20 54 21 35 28 38 21 52
 
-Ciphertext: 
+Ciphertext: U2VjcmV0

@@ -1,5 +1,5 @@
 # Base64-Projects
-These are my personal projects to learn more about base64 encyption and decryption. 
+This projects helped teach me the inner workings of a cryptographic algorithm that is commonly seen in CTF's and insecure security measures. I used Python to create this along with the help of the REGEX library (RE).
 
 # How Base64 Works
 

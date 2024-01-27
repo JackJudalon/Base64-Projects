@@ -1,2 +1,4 @@
 # Base64-Projects
-Personal projects related to base64 encryption
+These are my personal projects to learn more about base64 encyption and decryption
+
+How Base64 Works
